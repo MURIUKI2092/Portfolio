@@ -1,0 +1,56 @@
+.Intro{
+ 
+  margin-top: 200px;
+  margin-left: -700px;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+.introDetails{
+  display: flex;
+  flex-direction: column;
+}
+.Intro h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  flex-grow: 3;
+  text-align: center;
+  line-height: 10px;
+}
+.introRole p{
+border-bottom: 8px solid gold;
+margin-left: 35%;
+line-height: 30px;
+width: 140px;
+text-align: center !important;
+}
+.introRole p{
+  color: rgb(148, 146, 146);
+ 
+}
+.image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -60px;
+  margin-left: 20px;
+  border: 2px solid gold;
+  
+}
+.image{
+  flex-grow: 1;
+ 
+}
+.desc{
+  line-height: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.desc p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500
+
+}

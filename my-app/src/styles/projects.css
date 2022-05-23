@@ -1,0 +1,26 @@
+
+.card:hover{
+  transform: scale(1.02);
+}
+.card{
+  margin-top: 40px;
+  padding: 10px;
+}
+.icons{
+  margin-left: 20px;
+  padding: 10px;
+  transform: scale(1.5);
+  color: gold;
+  font-weight: 900;
+}
+.icons:hover{
+  transform:scale(3.0)
+  
+}
+.projectIcons{
+  margin-left: 85%;
+}
+.projects{
+  padding: 20px;
+  
+}

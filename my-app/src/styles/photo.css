@@ -1,0 +1,15 @@
+.photo{
+  width: 20%;
+  margin-left: 80%;
+  position: fixed;
+}
+.photo img {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid gold;
+  margin-left: 100px;
+  
+}
