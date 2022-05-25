@@ -13,10 +13,24 @@ const Sidebar = () => {
       </section>
 
       <section className='details'>
-      <span><SummarizeIcon className ="icons"/></span>
+     
+      
+      <a href='https://drive.google.com/file/d/1NUSK2J1u1vyTYjGC_mL-nHKYuxdXwmcB3LxB-074oOc/view?usp=sharing'>
+        <span><span><SummarizeIcon className ="icons"/></span></span>
+            </a>
+        <a href='https://www.linkedin.com/in/james-muriuki-857a241b8/'>
         <span><LinkedInIcon className ="icons"/></span>
+            </a>
+        
+        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=+muriukijames33@gmail.com'>
         <span><EmailIcon className ="icons"/></span>
-        <span><GitHubIcon className ="icons"/></span>
+            </a>
+            
+            <a href='https://github.com/MURIUKI2092'>
+            <span><GitHubIcon className ="icons"/></span>
+            </a>
+        
+        
 
       </section>
 

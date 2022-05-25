@@ -1,15 +1,15 @@
 import React from 'react'
-import Intro from '../components/intro'
+import About from '../components/about'
 import Navbar from '../components/navbar'
 import Photo from '../components/photo'
 import Sidebar from '../components/sidebar'
 import "../styles/landing.css"
 
-const Landing = () => {
+const AboutPage = () => {
   return (
     <div  className='landing'>
       <Sidebar className="landingNav"></Sidebar>
-      <Navbar className="landingNav">{<Intro/>}</Navbar>
+      <Navbar className="landingNav">{<About/>}</Navbar>
       <Photo className="landingNav"></Photo>
       
       
@@ -18,4 +18,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default AboutPage

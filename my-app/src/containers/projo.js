@@ -1,21 +1,23 @@
 import React from 'react'
-import Intro from '../components/intro'
+import Projects from '../components/projects'
 import Navbar from '../components/navbar'
 import Photo from '../components/photo'
 import Sidebar from '../components/sidebar'
 import "../styles/landing.css"
 
-const Landing = () => {
+const Projo = () => {
   return (
-    <div  className='landing'>
+    <div>
+      <div  className='landing'>
       <Sidebar className="landingNav"></Sidebar>
-      <Navbar className="landingNav">{<Intro/>}</Navbar>
+      <Navbar className="landingNav">{<Projects/>}</Navbar>
       <Photo className="landingNav"></Photo>
       
       
 
     </div>
+    </div>
   )
 }
 
-export default Landing
+export default Projo

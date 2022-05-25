@@ -1,9 +1,7 @@
 import React from 'react'
+import Router from '../router'
 import "../styles/navbar.css"
-import About from './about'
-import Intro from './intro'
-import Projects from './projects'
-// import {Link} from 'react-router-dom'
+import { NavLink, Link} from 'react-router-dom';
 
 const Navbar = ({children}) => {
   return (
@@ -13,10 +11,11 @@ const Navbar = ({children}) => {
       <div  className='navInfo'>
         
           <ul>
-            <li>INTRO</li>
-            <li>PROJECTS</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
+          <Link  to='/' className='topListItem'>INTRO</Link>
+          <Link  to='/projects' className='topListItem'>PROJECTS</Link>
+          <Link  to='/about' className='topListItem'>ABOUT</Link>
+          <Link  to='/contact' className='topListItem'>CONTACT</Link>
+           
           </ul>
         
       </div>
@@ -27,7 +26,7 @@ const Navbar = ({children}) => {
 
     </section>
     <section className='otherDetails'>
-      <About/>
+      {children}
 
     </section>
     {/* <Intro/> */}

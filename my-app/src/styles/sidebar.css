@@ -38,6 +38,7 @@
   transform: scale(1.8);
   color: gold;
   font-weight: 900;
+  cursor: pointer;
 }
 .icons:hover{
   transform:scale(3.0)

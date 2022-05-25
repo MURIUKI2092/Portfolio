@@ -1,0 +1,45 @@
+.location{
+  transform: scale(1.8);
+  color: gold;
+  font-weight: 900;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+}
+.form{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  padding: 10px;
+  margin-left: 30%;
+  /* align-items: flex-end; */
+}
+.Address{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.box,.email,.call{
+  margin-left: 40px;
+  margin-top: 30px;
+    cursor: pointer;
+  padding: 10px;
+}
+.box:hover{
+   transform: scale(1.1);
+ 
+}
+.email:hover{
+  transform: scale(1.1);
+
+}
+.call:hover{
+  transform: scale(1.1);
+
+}
+.email{
+  margin-top: 150px;
+}

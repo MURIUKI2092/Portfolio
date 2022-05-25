@@ -1,6 +1,16 @@
 import React from 'react'
 import Typography from '@mui/material/Typography';
 import "../styles/about.css"
+import Button from '@mui/material/Button';
+
+const skills=[
+  "Javascript","ReactJs","NodeJs","MongoDb","Python","Html","Css","Git","Linux"
+]
+const mySkills = skills.map((skill)=>{
+  return(
+    <Button variant="outlined"sx={{ padding:"15px",marginLeft:"10px",marginBottom:"5px"}}>{skill}</Button>
+  )
+})
 const About = () => {
   
   return (
@@ -10,11 +20,9 @@ const About = () => {
       About Me
         </Typography>
       {/* <span> <h4>About Me</h4></span> */}
-      <Typography variant="h6" component="div"sx={{mt:10,mb:5,}}>
-      <p>I’m a life long learner with professional experience as an active member of
-           several distributed teams as a software engineer.
-          My practical skills include front end web development, backend development,
-           test-driven development, continuous integration, and deployment.</p>
+      <Typography variant="h6" component="div"sx={{mt:6,mb:5,width:300}}>
+      <p>I’m a life long learner  junior developer with   several dedicated projects showcasing different skills.
+          My practical skills include front end web development, backend development, problem solving and communication skills.</p>
         </Typography>
         
       </section>
@@ -23,9 +31,7 @@ const About = () => {
       Skills
         </Typography>
       {/* <span> <h4>Skills</h4></span> */}
-      <Typography variant="h6" component="div"sx={{mt:10,mb:5}}>
-      js,html,css git,PostgreSQL
-        </Typography>
+     {mySkills}
        
       
       </section>
@@ -33,7 +39,15 @@ const About = () => {
       <Typography sx={{ fontSize: 20,fontWeight:600,width:110,borderBottom:"10px solid gold", }}variant="h3" color="text.primary" gutterBottom>
       Experience
         </Typography>
-      {/* <span><h4>Experience</h4></span> */}
+        <Typography variant="h6" component="div"sx={{mt:6,mb:5,width:300}}>
+      <p>Having worked in different personal projects, I have:
+        <li>Worked on frontend development creating user friendly interfaces.</li>
+        <li>worked on backend development and created the logic for the Apps</li>
+        <li>Generated required Apis which I incorporated in my FrontEnd apps</li>
+        <li>written some  unit tests for some of the backends</li>
+      </p>
+        </Typography>
+      
         
       </section>
       <section  className='aboutWants'>
@@ -41,12 +55,13 @@ const About = () => {
       What I'm looking for
         </Typography>
         {/* <span><h4>What I'm looking for</h4></span> */}
-        <Typography variant="h6" component="div"sx={{mt:10,mb:5}}>
+        <Typography variant="h6" component="div"sx={{mt:6,mb:5,width:300}}>
           
-        <p>Time and opportunity to learn and apply emerging technologies.Time and opportunity to learn and apply emerging technologies.
-                Company with a positive ethical stance.
-                Direct engineering hands- on involvement.
-                A company whose mission and values align with my goals of personal career improvement and progression.  </p>
+        <li>Time and opportunity to learn and apply emerging technologies.</li>
+        <li>Company with a positive ethical stance.</li>
+        <li> A company whose mission and values align with my goals of personal career improvement and progression</li>
+        <li>Direct engineering hands- on involvement.</li>
+                
         </Typography>
         
       </section>
