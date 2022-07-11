@@ -1,0 +1,23 @@
+.about{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutMe{
+  width: 50%;
+  padding: 10px;
+}
+.aboutSkills{
+  
+  width: 40%;
+}
+.aboutExperience{
+  
+  width: 50%;
+}
+.aboutWants{
+width: 40%;
+padding: 10px;
+}
