@@ -9,7 +9,7 @@ const Intro = () => {
       <span className="introRole"><p>Full Stack Software Developer</p></span>
       <span className='desc'><p> Hi, Am a Junior Software Engineer with a deeper passion in writing codes to assist and solve others problems. Skilled in Javascript, ReactJs, NodeJs,  MongoDB,PostgreSQL,
       Cascading Style Sheets (CSS) and HTML,Python
-      , Django and Flask framework,.</p></span>
+      , Django and Flask framework.</p></span>
       </div>
       <div className='image'>
       {/* <img src={foto} alt="" /> */}
